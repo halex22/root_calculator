@@ -1,0 +1,53 @@
+body {
+    
+    background-color: #f7f1f1;
+}
+
+main {
+    height: 80vh;
+    background-color: #fff ;
+    border-radius: 0.75rem;
+}
+
+header {
+    text-align: center;
+}
+
+#input-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25%;
+}
+
+
+.input-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.input-container:last-child {
+    margin-top: 0.5rem;
+}
+
+#btn-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: aliceblue;
+    font-size: large;
+}
+
+
+#result-container {
+    text-align: center;
+}
